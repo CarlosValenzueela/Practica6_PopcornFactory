@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark"
+    android:orientation="vertical"
+    tools:context=".DetallePelicula">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_headerPelicula"
+            android:layout_width="match_parent"
+            android:layout_height="330dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/bonesheader"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/tv_tituloPelicula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/yellow_button"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:text="BONES"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/tv_descripcionPelicula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipipcing elt sad do"
+            android:layout_margin="15dp"
+            android:textSize="15sp"
+            android:padding="10dp"
+            android:justificationMode="inter_word"
+            android:textColor="@color/white_text"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
