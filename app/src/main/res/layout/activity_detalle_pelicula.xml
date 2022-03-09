@@ -45,6 +45,26 @@
             android:textColor="@color/white_text"
             />
 
+        <Button
+            android:id="@+id/buyTickets"
+            android:padding="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/yellow_button"
+            android:textColor="@color/dark"
+            android:paddingHorizontal="20sp"
+            android:layout_marginTop="10dp"
+            android:text="Buy my ticket!"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seatsLeft"
+            android:textColor="@color/gris_claro"
+            android:textStyle="italic"
+            android:layout_marginTop="7dp"
+            />
     </LinearLayout>
 
 </LinearLayout>

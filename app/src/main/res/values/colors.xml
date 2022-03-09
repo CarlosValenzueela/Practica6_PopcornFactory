@@ -10,4 +10,6 @@
     <color name="dark">#1D1D1D</color>
     <color name="white_text">#C5C5C5</color>
     <color name="yellow_button">#ffd501</color>
+    <color name="gris_claro">#9E9E9E</color>
+
 </resources>
